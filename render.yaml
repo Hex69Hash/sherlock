@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sherlock-api
+    env: python
+    buildCommand: ""
+    startCommand: "python3 sherlock_api.py"
+    plan: free
